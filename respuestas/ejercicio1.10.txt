@@ -1,0 +1,48 @@
+daw1_b@1DAM-02 MINGW64 /d/Educa/daw1_b/Escritorio/examen-Rodriguez-Gonzalez/entornos1T/respuestas (RODRIGUEZ-GONZALEZ)
+$ git log
+commit 39aa78789c6c9fc3b2154dd9c33f775b8bfd28a1 (HEAD -> RODRIGUEZ-GONZALEZ)
+Author: Cesar Rodriguez <cesar.rodriguez8@educa.madrid.org>
+Date:   Fri Dec 4 19:38:46 2020 +0100
+
+    Añadida respuesta ejercicio 1.6
+
+commit c82aefefb412c4b3d7fe706cc7b256cc9390169e
+Author: Cesar Rodriguez <cesar.rodriguez8@educa.madrid.org>
+Date:   Fri Dec 4 19:35:07 2020 +0100
+
+     Respuestas ejercicico 1.4
+
+commit b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (origin/main, origin/HEAD, main)
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:11:30 2020 +0100
+
+    Update .gitignore
+
+    Ignorar ficheros de IntelliJ y MacOS
+
+commit 7b39baf748c6a994c95cdb9df0eba4b586319a14
+Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Date:   Fri Dec 4 11:03:21 2020 +0100
+
+    Initial commit
+
+daw1_b@1DAM-02 MINGW64 /d/Educa/daw1_b/Escritorio/examen-Rodriguez-Gonzalez/entornos1T/respuestas (RODRIGUEZ-GONZALEZ)
+$  git tag RODRIGUEZ-GONZALEZ-paso5 c82aefe -m" RODRIGUEZ-GONZALEZ-paso5"
+
+daw1_b@1DAM-02 MINGW64 /d/Educa/daw1_b/Escritorio/examen-Rodriguez-Gonzalez/entornos1T/respuestas (RODRIGUEZ-GONZALEZ)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+daw1_b@1DAM-02 MINGW64 /d/Educa/daw1_b/Escritorio/examen-Rodriguez-Gonzalez/entornos1T/respuestas
+$ cd ..
+
+daw1_b@1DAM-02 MINGW64 /d/Educa/daw1_b/Escritorio/examen-Rodriguez-Gonzalez/entornos1T (main)
+$ git merge RODRIGUEZ-GONZALEZ
+Updating b79c7ba..39aa787
+Fast-forward
+ respuestas/ejercicio1.4.txt | 24 ++++++++++++++++++++++++
+ respuestas/ejercicio1.6.txt | 27 +++++++++++++++++++++++++++
+ 2 files changed, 51 insertions(+)
+ create mode 100644 respuestas/ejercicio1.4.txt
+ create mode 100644 respuestas/ejercicio1.6.txt
